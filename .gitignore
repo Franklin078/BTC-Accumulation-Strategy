@@ -1,0 +1,35 @@
+# Virtual environment
+btcenv/
+venv/
+.env/
+
+# Data files
+data/
+*.csv
+*.parquet
+*.pkl
+
+# Models
+models/
+*.h5
+*.pt
+*.joblib
+*.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and backtests
+backtests/
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
